@@ -4,7 +4,7 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-    - name: Hello Message
+    - name: Dump facts
       debug:
         msg: "{{ ansible_facts }}"
 
